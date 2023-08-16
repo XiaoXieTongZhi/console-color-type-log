@@ -60,9 +60,21 @@ color.error('失败')
 color.warn('警告')
 color.info('信息')
 color.info('信息', '这是一条有用的信息')
+
+// 可选项
+
+console.log(color('red', '这是一段红色文本'，{istype:true,isend:true}))
+//  这是一段红色文本  string
+console.log('123') //isend 设置为true 影响后面字符串打印的颜色    123为红色
+
+//设置istype为true 打印内容时会显示内容的类型
+//设置isend为true  会影响后面字符串的输出颜色 
+
+
 ```
 
 
+``
 
 
 **内置标识符:**
