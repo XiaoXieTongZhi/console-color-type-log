@@ -9,19 +9,19 @@
 *npm*
 
 ```cmd
-npm i console-color-node
+npm i console-color-type-log
 ```
 
 *yarn*
 
 ```cmd
-yarn add console-color-node
+yarn add console-color-type-log
 ```
 
 *pnpm*
 
 ```cmd
-pnpm add console-color-node
+pnpm add console-color-type-log
 ```
 
 
@@ -30,7 +30,7 @@ pnpm add console-color-node
 
 ```js
 // 导入模块
-const color = require('console-color-node') 
+const color = require('console-color-type-log') 
 
 // 调用函数返回一段序列化后的字符串
 color('red', '这是一段红色文本') // '\x1B[31m这是一段红色文本\x1B[0m'
